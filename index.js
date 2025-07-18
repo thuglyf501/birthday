@@ -1,3 +1,9 @@
+function PlayMusic() {
+    const music = document.getElementById("bg-music");
+    music.play().catch((e) => {
+        console.log("User interaction required to play music:", e);
+    });
+}
 
     let datetxt = "10 Sept";
     let datatxtletter = "My love. You are a very special girl. I always silently thank you for coming into my life. Today, I wish you all the best, lots of health, and lots of joy. I always hope we will celebrate many more birthdays like this together. Happy birthday to you.💕";
