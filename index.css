@@ -627,7 +627,9 @@ body {
     font-weight: 700;
     cursor: pointer;
 }
-
+a{
+    text-decoration: none;
+}
 
 
 @media screen and (max-width: 658px)   {
@@ -1023,3 +1025,4 @@ body {
     color: white;
     z-index: 10000000000000000;
 }
+
