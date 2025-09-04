@@ -156,9 +156,10 @@ function createFireworks() {
 }
 
 function goBack() {
-  alert("Going back to Memory Lane!");
+  alert("Going back to Previous Page!");
 }
 
 function goNext() {
   alert("Going to the Next Surprise!");
 }
+
